@@ -4,6 +4,9 @@ Data Scientist Sênior - Logística
 Regra: Custo = max(781.71, CIF * 0,20%)
 """
 
+import matplotlib
+matplotlib.use("Agg")  # Evita abrir no navegador; gráfico só é salvo em arquivo
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -96,7 +99,7 @@ fig.tight_layout()
 
 plt.savefig("analise_custos_portuarios.png", dpi=150, bbox_inches="tight",
             facecolor="white", edgecolor="none")
-plt.show()
+plt.close(fig)
 
 # ========== RESUMO NO CONSOLE ==========
 print("\n" + "=" * 60)
@@ -109,4 +112,4 @@ print(f"Meses com Ad Valorem (0,20% CIF):   {(~df['Usou_Minimo']).sum()}")
 total = df["Custo_Armazenagem"].sum()
 print(f"Custo total no ano: R$ {total:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."))
 print("=" * 60)
-
+    
