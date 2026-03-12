@@ -1,10 +1,10 @@
-# ⚓ Análise de Custos Portuários — Porto de Santos
+#  Análise de Custos Portuários — Porto de Santos
 
 > **Ferramenta de simulação e análise de viabilidade para custos de armazenagem portuária, focada na identificação de gargalos financeiros em operações de Importação.**
 
 ---
 
-## 💼 O Problema de Negócio
+##  O Problema de Negócio
 
 Em operações de comércio exterior, a **previsibilidade de custos é um dos maiores desafios** enfrentados por importadores. A complexidade das tarifas portuárias — que misturam valores fixos e percentuais — dificulta saber com antecedência o custo real de armazenagem de uma carga.
 
@@ -22,7 +22,7 @@ Isso cria três "dores" reais para o importador:
 
 ---
 
-## 📊 Principais Insights
+##  Principais Insights
 
 ### 1. Ponto de Breakeven — R$ 390.855
 
@@ -49,7 +49,7 @@ Um aumento de 10% no dólar não impacta linearmente o custo. Cargas próximas a
 
 ---
 
-## 🎯 Recomendações Estratégicas
+##  Recomendações Estratégicas
 
 | Perfil do Importador | Recomendação |
 |---|---|
@@ -77,7 +77,7 @@ Um aumento de 10% no dólar não impacta linearmente o custo. Cargas próximas a
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 analise-custos-portuarios/
@@ -98,7 +98,7 @@ analise-custos-portuarios/
 
 ---
 
-## 🚀 Como Rodar Localmente
+##  Como Rodar Localmente
 
 **Pré-requisitos:** Python 3.8+, Git
 
