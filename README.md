@@ -10,7 +10,7 @@ Em operações de comércio exterior, a **previsibilidade de custos é um dos ma
 
 A regra tarifária do Porto de Santos para container 40' segue a lógica:
 
-$$\text{Custo} = \max(\text{R\$ 781,71},\ \text{Valor CIF} \times 0{,}20\%)$$
+
 
 Isso cria três "dores" reais para o importador:
 
