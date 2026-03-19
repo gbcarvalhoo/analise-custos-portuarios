@@ -6,7 +6,7 @@
 
 ##  O Problema de Negócio
 
-Em operações de comércio exterior, a **previsibilidade de custos é um dos maiores desafios** enfrentados por importadores. A complexidade das tarifas portuárias — que misturam valores fixos e percentuais — dificulta saber com antecedência o custo real de armazenagem de uma carga.
+Em operações de comércio exterior, a **previsibilidade de custos é um dos maiores desafios** enfrentados por importadores. A complexidade das tarifas portuárias que misturam valores fixos e percentuais  dificulta saber com antecedência o custo real de armazenagem de uma carga.
 
 A regra tarifária do Porto de Santos para container 40' segue a lógica:
 
@@ -40,13 +40,13 @@ O algoritmo identifica matematicamente o momento exato em que a cobrança muda d
 
 ![Monthly Analysis](reports/images/monthly_analysis.png)
 
-Na simulação de um ano fiscal, **entre 4 e 6 meses ativaram a tarifa mínima** (barras laranjas). Cada mês laranja é uma **oportunidade concreta de consolidação de carga** — combinar duas cargas menores em um único container para diluir o custo fixo.
+Na simulação de um ano fiscal, **entre 4 e 6 meses ativaram a tarifa mínima** (barras laranjas). Cada mês laranja é uma **oportunidade concreta de consolidação de carga**, combinar duas cargas menores em um único container para diluir o custo fixo.
 
 ### 3. Análise de Sensibilidade Cambial
 
 ![Sensitivity Analysis](reports/images/sensitivity_analysis.png)
 
-Um aumento de 10% no dólar não impacta linearmente o custo. Cargas próximas ao breakeven sofrem um **salto de custo mais abrupto** — o que reforça a necessidade de monitoramento cambial como parte da estratégia logística.
+Um aumento de 10% no dólar não impacta linearmente o custo. Cargas próximas ao breakeven sofrem um **salto de custo mais abrupto**, o que reforça a necessidade de monitoramento cambial como parte da estratégia logística.
 
 ---
 
@@ -55,7 +55,7 @@ Um aumento de 10% no dólar não impacta linearmente o custo. Cargas próximas a
 | Perfil do Importador | Recomendação |
 |---|---|
 | Carga CIF < R$ 390k | Consolidar cargas para diluir o custo fixo |
-| Carga CIF > R$ 390k | Monitorar variação cambial — considerar hedge |
+| Carga CIF > R$ 390k | Monitorar variação cambial, considerar hedge |
 | Alta frequência de importação | Negociar tabela diferenciada com o operador portuário |
 
 ---
