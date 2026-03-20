@@ -1,4 +1,4 @@
-#  Análise de Custos Portuários — Porto de Santos
+#  Análise de Custos Portuários 
 
 > **Ferramenta de simulação e análise de viabilidade para custos de armazenagem portuária, focada na identificação de gargalos financeiros em operações de Importação.**
 
@@ -33,8 +33,8 @@ O algoritmo identifica matematicamente o momento exato em que a cobrança muda d
 
 | Zona | Valor CIF | Taxa Efetiva | Implicação |
 |---|---|---|---|
-| 🟠 Ineficiência | < R$ 390.855 | > 0,20% | Importador paga proporcionalmente mais |
-| 🟢 Proporcional | > R$ 390.855 | = 0,20% | Custo justo e previsível |
+|  Ineficiência | < R$ 390.855 | > 0,20% | Importador paga proporcionalmente mais |
+|  Proporcional | > R$ 390.855 | = 0,20% | Custo justo e previsível |
 
 ### 2. Simulação Anual — Onde Estão os Gargalos?
 
